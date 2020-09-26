@@ -1,0 +1,45 @@
+@import "/css/fonts.css";
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  max-width: 100;
+  flex-wrap: wrap;
+  padding-top: 64px;
+}
+header .header__link {
+  margin: 0 12px;
+  font-family: "WorkSans-SemiBold";
+  color: #314584;
+  font-size: 18px;
+}
+header .logo {
+  margin: 0 250px;
+}
+header .header__link:hover {
+  text-decoration: none;
+  color: #314584;
+}
+header .header__button {
+  color: #ff3946;
+  font-size: 18px;
+  background: #ffffff;
+  border-radius: 10px;
+  font-family: "WorkSans-SemiBold";
+  padding: 11px 20px;
+  margin: 0 270px;
+  box-shadow: 0 9px 10px 0 rgba(179, 204, 250, 0.849);
+}
+header .header__button:hover {
+  text-decoration: none;
+  color: #ff3946;
+}
+header .icon__right {
+  margin-left: 10px;
+}
